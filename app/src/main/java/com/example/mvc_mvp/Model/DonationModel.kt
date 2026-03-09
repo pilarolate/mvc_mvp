@@ -21,4 +21,15 @@ class DonationModel {
     fun getDonationAmount() : Int{
         return totalAmount
     }
+
+    //Parte 2: En MVP se mantiene la estructura
+    fun checkAmount() : String{
+        if(totalAmount >= 2000 && totalAmount <= 5000){
+            return "#F31A1A"
+        }
+        if(totalAmount >= 5000 && totalAmount <= 10000){
+            return "#FFFB33"
+        }
+        return "#58FF11"
+    }
 }
