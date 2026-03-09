@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">mvc_mvp</string>
+    <string name="total_donaciones">Total donaciones : %1$s</string>
+    <string name="ingrese">Ingrese una nueva donación</string>
+    <string name="nueva">Nueva donación</string>
+    <string name="donar">Hacer donación</string>
+    <string name="total">Total:</string>
+</resources>
